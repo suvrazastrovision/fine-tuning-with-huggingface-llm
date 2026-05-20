@@ -2,9 +2,9 @@
 
 Fine-tuning a Large Language Model (LLM) involves adapting a pretrained model to a specific task or domain by training it further on a smaller, task-specific dataset. This process allows the model to learn task-specific patterns and improve its performance on that task.
 
-In this tutorial, we’ll walk you through the steps to fine-tune an LLM using the Hugging Face transformers library, which provides easy-to-use tools for working with models like GPT, BERT, and others. we’ll also provide a code demo for fine-tuning GPT-2 (a smaller version of GPT-3) on a custom text dataset.
+In this tutorial which is adapted from existing github repository, I’ll walk you through the steps to fine-tune an LLM using the Hugging Face transformers library, which provides easy-to-use tools for working with models like GPT, BERT, and others. I’ll also provide a code demo for fine-tuning GPT-2 (a smaller version of GPT-3) on a custom text dataset.
 
-More specifically, in this tutorial, we will fine-tune GPT-2 on the Wikitext dataset (a collection of Wikipedia articles) to generate coherent, context-aware text. You’ll learn how to adapt a pretrained LLM to produce Wikipedia-style content, useful for tasks like knowledge summarization or content generation.
+More specifically, in this tutorial, I will fine-tune GPT-2 on the Wikitext dataset (a collection of Wikipedia articles) to generate coherent, context-aware text. You’ll learn how to adapt a pretrained LLM to produce Wikipedia-style content, useful for tasks like knowledge summarization or content generation.
 
 - **Example Input and Output**
 ```
